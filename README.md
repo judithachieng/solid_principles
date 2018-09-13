@@ -1,4 +1,4 @@
-# SOLID PRINCIPLES
+## SOLID PRINCIPLES
 SOLID Principles with Javascript examples.
 
 SOLID principles are the five principles that are essential for building software. These principles when applied enable developers to write better quality code, achieve scalability and avoid code breaking everytime a change isintroduced. The sytems created based on this principles are easy to maintain , reuse and extend over time.
@@ -7,14 +7,17 @@ SOLID principles are the five principles that are essential for building softwar
 
 >A class should have one, and only one, reason to change.
 
-One class should only serve one purpose. A responsibility here could be considered to be a reason  to change. This does not imply that each class should have only one method but they should all relate directly to the responsibility of the class. All the methods and properties should all work towards the same goal. When a class serves multiple purposes or responsibility then it should be made into a new class.
+One class should only serve one purpose. A responsibility here could be considered to be a reason  to change. This does not imply that each class should have only one method but they should all relate directly to the responsibility of the class. All the methods and properties should all work towards the same goal. When a class serves multiple purposes or responsibility then 
 
+[example code here](single-responsibility/index.js)
 
 ## Open-closed Principle :
 
 >Entities should be open for extension, but closed for modification.
 
 Software entities (classes, modules, functions, etc.) be extendable without actually changing the contents of the class you're extending. This principle reduces the risk of getting new errors by limiting changes to existing code. If we could follow this principle strongly enough, it is possible to then modify the behavior of our code without ever touching a piece of original code.
+
+[example code here](open-closed/index.js)
 
 ## Liskov Substitution Principle :
 
@@ -42,6 +45,7 @@ Or simply : Subclass/derived class should be substitutable for their base/parent
 
 It states that any implementation of an abstraction (interface) should be substitutable in any place that the abstraction is accepted. Basically, it takes care that while coding using interfaces in our code, we not only have a contract of input that the interface receives but also the output returned by different Classes implementing that interface; they should be of the same type.
 
+[example code here](liskov-substitution/index.js)
 
 ## Interface Segregation Principle
 >Classes that interface, should not be forced to implement methods they do not use.
@@ -49,7 +53,11 @@ This rule means that  we should break our interfaces in many smaller ones, so th
 
 Similar to the Single Responsibility Principle, the goal of the Interface Segregation Principle is to minimize the side consequences and repetition by dividing the software into multiple, independent parts.
 
+[example code here](interface-segregation/index.js)
+
 ## Dependency Inversion
 >High level modules should not depend on low level modules ,but rather both should depend on abstraction.  
 
 Abstractions should not depend upon details . Details should depend upon abstractions.By applying the Dependency Inversion the modules can be easily changed by other modules just by changing the dependency module and High-level module will not be affected by any changes to the Low-level module.
+
+[example code here](depedency-inversion/index.js)
