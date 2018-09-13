@@ -1,5 +1,5 @@
 # SOLID PRINCIPLES
-SOLID Principles with Javascript examples
+SOLID Principles with Javascript examples.
 
 SOLID principles are the five principles that are essential for building software. These principles when applied enable developers to write better quality code, achieve scalability and avoid code breaking everytime a change isintroduced. The sytems created based on this principles are easy to maintain , reuse and extend over time.
 
